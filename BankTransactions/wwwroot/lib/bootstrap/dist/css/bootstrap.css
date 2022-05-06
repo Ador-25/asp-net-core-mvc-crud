@@ -3981,6 +3981,7 @@ textarea.form-control-lg {
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
+
 }
 .navbar-brand {
   padding-top: 0.3125rem;
@@ -3996,6 +3997,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+
 }
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -4372,10 +4374,12 @@ textarea.form-control-lg {
 }
 
 .navbar-light .navbar-brand {
+
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
+
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.55);

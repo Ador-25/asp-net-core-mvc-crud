@@ -1,33 +1,28 @@
-﻿@model IEnumerable<Transaction>
+﻿@model IEnumerable<BankTransactions.Models.Transaction>
 
 @{
     ViewData["Title"] = "Index";
 }
 <div class="row">
-    <style>
-        h1{
-            color:black;
-        }
-    </style>
-
+    <div >
         <h1>Passbook</h1>
 
         <table class="table">
             <thead>
                 <tr>
                     <th>
-                        @Html.DisplayNameFor(model=>model.AccountNumber)
+                        @Html.DisplayNameFor(model => model.AccountNumber)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model=>model.BeneficiaryName)
+                        @Html.DisplayNameFor(model => model.BeneficiaryName)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model=>model.Date)
+                        @Html.DisplayNameFor(model => model.Date)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model=>model.Amount)
+                        @Html.DisplayNameFor(model => model.Amount)
                     </th>
-                     <th>
+                    <th>
                         <a asp-action="AddOrEdit" class="btn btn-sm btn-success">
                             <i class="fa-solid fa-plus"></i> New
                         </a>
@@ -67,5 +62,5 @@
                 }
             </tbody>
         </table>
-
+    </div>
 </div>

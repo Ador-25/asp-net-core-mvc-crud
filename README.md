@@ -14,12 +14,15 @@ This tool demonstrates simple MVC application that supports CRUD(Create, Retriev
 
 ## Demo
 All Transactions
+
 ![image](https://user-images.githubusercontent.com/84260545/214379034-836ddc15-0918-4d2c-8244-cc6fbcf6ba58.png)
 
 Create Transactions
+
 ![image](https://user-images.githubusercontent.com/84260545/214378921-e8ca39af-29ae-4329-aec4-b2f53a7b5484.png)
 
 Edit Transactions
+
 ![image](https://user-images.githubusercontent.com/84260545/214378860-adbac4b7-eaac-4d2d-9d04-f904a381109c.png)
 
 ## How to install
